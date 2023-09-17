@@ -53,11 +53,6 @@ async function main() {
         graphiql: true,
         cache: false,
         validationRules: ({variables, operationName}) => {
-            console.log({
-                variables,
-                operationName,
-            });
-
             return [
                 queryComplexity({
                     maximumComplexity: 100,
@@ -71,11 +66,6 @@ async function main() {
             ];
         },
         errorFormatter: (executionResult, context) => {
-            console.error({
-                executionResult,
-                context,
-            });
-
             const log = (context as Partial<typeof context>).reply ? context.reply.log : context.app.log;
             const errors = executionResult.errors.map((error) => {
                 error.extensions.exception = error.originalError;

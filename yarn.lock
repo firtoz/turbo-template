@@ -1156,21 +1156,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@firtoz/openai-wrappers@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "@firtoz/openai-wrappers@npm:3.0.3"
-  dependencies:
-    axios: ^1.4.0
-    chatgpt-plugin: ^0.1.2
-    gpt3-tokenizer: ^1.1.5
-    lodash: ^4.17.21
-    openai: ^3.3.0
-    openapi-types: ^12.1.3
-    yaml: ^2.3.1
-  checksum: a4b50865e40f82b0f9bafab81920332a1a58c2df2a79798c419788524b5627075bffcd74b9eb81eddd86a53f407380f9b3e1498373feeb1971038f73e74e4640
-  languageName: node
-  linkType: hard
-
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -2501,25 +2486,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/slugify@npm:^2.2.0":
-  version: 2.2.1
-  resolution: "@sindresorhus/slugify@npm:2.2.1"
-  dependencies:
-    "@sindresorhus/transliterate": ^1.0.0
-    escape-string-regexp: ^5.0.0
-  checksum: 6d651e99a4dfc63f1eccc5373f722af031f013bfce0b040b2c1151f5795f272f7c47146d8fc5f03afbb410c53c9f91f7cb1a50f402a8bf7dd1b691d8a450c712
-  languageName: node
-  linkType: hard
-
-"@sindresorhus/transliterate@npm:^1.0.0":
-  version: 1.6.0
-  resolution: "@sindresorhus/transliterate@npm:1.6.0"
-  dependencies:
-    escape-string-regexp: ^5.0.0
-  checksum: 947c7c84dcba36c35d12ac7fd95ae9f77e988bd499471ebd0819812c451c8bfd20f8a236084a13fde196ba1eb064871f8915d09995531611569e2fe687411582
-  languageName: node
-  linkType: hard
-
 "@swc/helpers@npm:0.5.1":
   version: 0.5.1
   resolution: "@swc/helpers@npm:0.5.1"
@@ -3589,15 +3555,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.26.0":
-  version: 0.26.1
-  resolution: "axios@npm:0.26.1"
-  dependencies:
-    follow-redirects: ^1.14.8
-  checksum: d9eb58ff4bc0b36a04783fc9ff760e9245c829a5a1052ee7ca6013410d427036b1d10d04e7380c02f3508c5eaf3485b1ae67bd2adbfec3683704745c8d7a6e1a
-  languageName: node
-  linkType: hard
-
 "axios@npm:^1.4.0":
   version: 1.4.0
   resolution: "axios@npm:1.4.0"
@@ -4065,15 +4022,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chatgpt-plugin@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "chatgpt-plugin@npm:0.1.2"
-  dependencies:
-    "@sindresorhus/slugify": ^2.2.0
-  checksum: ddcf129c516f9599cceae6e20e8e36ef3461555852f6e7f92590d0e6a4d7a080959421c36360841148af1835405d4c4eb6015e963725930be3ed525053bd77b5
-  languageName: node
-  linkType: hard
-
 "check-error@npm:^1.0.2":
   version: 1.0.2
   resolution: "check-error@npm:1.0.2"
@@ -4285,7 +4233,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "common@workspace:packages/common"
   dependencies:
-    "@firtoz/openai-wrappers": ^3.0.3
     nodemon: ^3.0.1
     rimraf: ^5.0.1
     typescript: ^5.1.6
@@ -5079,13 +5026,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escape-string-regexp@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "escape-string-regexp@npm:5.0.0"
-  checksum: 20daabe197f3cb198ec28546deebcf24b3dbb1a5a269184381b3116d12f0532e06007f4bc8da25669d6a7f8efb68db0758df4cd981f57bc5b57f521a3e12c59e
-  languageName: node
-  linkType: hard
-
 "eslint-config-custom@*, eslint-config-custom@workspace:packages/eslint-config-custom":
   version: 0.0.0-use.local
   resolution: "eslint-config-custom@workspace:packages/eslint-config-custom"
@@ -5762,7 +5702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.14.8, follow-redirects@npm:^1.15.0":
+"follow-redirects@npm:^1.15.0":
   version: 1.15.2
   resolution: "follow-redirects@npm:1.15.2"
   peerDependenciesMeta:
@@ -8229,23 +8169,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openai@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "openai@npm:3.3.0"
-  dependencies:
-    axios: ^0.26.0
-    form-data: ^4.0.0
-  checksum: 28ccff8c09b6f47828c9583bb3bafc38a8459c76ea10eb9e08ca880f65523c5a9cc6c5f3c7669dded6f4c93e7cf49dd5c4dbfd12732a0f958c923117740d677b
-  languageName: node
-  linkType: hard
-
-"openapi-types@npm:^12.1.3":
-  version: 12.1.3
-  resolution: "openapi-types@npm:12.1.3"
-  checksum: 7fa5547f87a58d2aa0eba6e91d396f42d7d31bc3ae140e61b5d60b47d2fd068b48776f42407d5a8da7280cf31195aa128c2fc285e8bb871d1105edee5647a0bb
-  languageName: node
-  linkType: hard
-
 "optionator@npm:^0.9.3":
   version: 0.9.3
   resolution: "optionator@npm:0.9.3"
@@ -9208,7 +9131,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "schemas@workspace:packages/schemas"
   dependencies:
-    "@firtoz/openai-wrappers": ^3.0.3
     "@graphql-codegen/cli": ^5.0.0
     "@graphql-codegen/client-preset": ^4.1.0
     "@parcel/watcher": ^2.2.0

@@ -17,8 +17,5 @@
         "nodemon": "^3.0.1",
         "rimraf": "^5.0.1",
         "typescript": "^5.1.6"
-    },
-    "dependencies": {
-        "@firtoz/openai-wrappers": "^3.0.3"
     }
 }

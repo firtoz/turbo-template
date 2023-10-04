@@ -25,7 +25,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@firtoz/openai-wrappers": "^3.0.3",
     "concurrently": "^8.2.0",
     "graphql-request": "^6.1.0"
   }
